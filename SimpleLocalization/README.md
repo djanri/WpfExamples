@@ -1,6 +1,7 @@
-The example shows a simple way to localize your wpf application.
+**The example shows a simple way to localize your wpf application.**
 
 There are some goals of implementation:
+
     1. Support of xml files.
     2. Support of visual studio intellisense in xaml designer.
     
