@@ -1,9 +1,11 @@
 ﻿<Application x:Class="SimpleLocalization.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:SimpleLocalization"
+             xmlns:local="clr-namespace:SimpleLocalization.Localization"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <local:StringLocalizer x:Key="StringLocalizer"/>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
